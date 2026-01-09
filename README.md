@@ -79,7 +79,7 @@ where latency, responsiveness, and incremental insight delivery are critical.
 The backend was bootstrapped using Spring Initializr with a fully reactive stack,
 selecting Kotlin, Spring WebFlux, and a non-blocking architecture from day one.
 
-![Reactive Backend Bootstrap](backend/docs/image/reactive-backend-bootstrap.png)
+![Reactive Backend Bootstrap](backend/docs/image/01-reactive-backend-bootstrap.png)
 
 ### Project Generation & Structure
 
@@ -87,7 +87,7 @@ The initial project structure was generated using Spring Initializr and imported
 directly into the workspace, serving as the foundation for the reactive backend
 and AI streaming components.
 
-![Project Bootstrap Generation](backend/docs/image/project-bootstrap-generation.png)
+![Project Bootstrap Generation](backend/docs/image/02-backend-project-generation.png)
 
 ### Live AI Market Summary (Terminal UI)
 
@@ -98,7 +98,7 @@ professional trading terminal experience.
 This includes connection lifecycle events, streaming output, and clean completion
 signaling.
 
-![MarketPulse AI Terminal Streaming](backend/docs/image/2%20-Captura%20de%20pantalla%202026-01-09%20a%20la(s)%2006.35.01.png)
+![MarketPulse AI Terminal Streaming](backend/docs/image/03-live-ai-market-summary-terminal.png)
 
 
 ---
