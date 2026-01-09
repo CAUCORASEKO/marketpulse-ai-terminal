@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: marketpulse-backend
+
+openai:
+  api-key: ${OPENAI_API_KEY:}
+  model: gpt-4o-mini
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: always
+
+logging:
+  level:
+    root: INFO
+    com.marketpulse: DEBUG
+    org.springframework.web: DEBUG

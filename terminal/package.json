@@ -1,0 +1,11 @@
+{
+  "name": "marketpulse-terminal",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node stream-summary.js"
+  },
+  "dependencies": {
+    "eventsource": "^2.0.2"
+  }
+}
